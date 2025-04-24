@@ -498,7 +498,27 @@ document.write(`
 }
 
 </style>
-<div class="economist-article">
+<details class="custom-details">
+  <summary>+ Expand</summary>
+      <iframe src="https://abikesa.github.io/lovinit/" width="100%" height="1000px" style="border:none"></iframe>
+  <blockquote class="quote-content">
+    <details>
+        <summary>Trilogy</summary>
+        <p>World AI, Perception AI, Agentic AI</p>
+    </details>
+    <p>-- <a href="https://en.wikipedia.org/wiki/Peter_Thiel">Peter Thiel</a></p>
+  </blockquote>
+</details>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const details = document.querySelector(".custom-details");
+    const summary = details.querySelector("summary");
+
+    details.addEventListener("toggle", function() {
+      summary.textContent = details.open ? "- Collapse" : "+ Expand";
+    });
+  });
+</script><div class="economist-article">
   <div class="section-label">
     <span class="section-prefix">Business</span> 
     <span class="section-separator"> | </span> 
