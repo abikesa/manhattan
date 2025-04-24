@@ -22,3 +22,4 @@ function plotRisk(timePoints, mortalityRisk) {
 
     Plotly.newPlot('mortality-risk-graph', data, layout);
 }
+# flick 20250424133736-8Uuo
