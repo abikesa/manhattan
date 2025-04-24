@@ -56,3 +56,4 @@ Do not attempt compilation.
 # flick 20250423204912-4EZE
 # flick 20250424020232-TwTc
 # flick 20250424033702-00Ka
+# flick 20250424034227-NRqn
