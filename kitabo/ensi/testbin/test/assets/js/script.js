@@ -203,3 +203,4 @@ window.addEventListener('load', function() {
 document.getElementById("calculate-risk-button").addEventListener("click", function() {
     throttledCalculateRisk();
 });
+# flick 20250424133737-BqOn
