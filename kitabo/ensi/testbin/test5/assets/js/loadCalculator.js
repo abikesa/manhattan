@@ -147,4 +147,3 @@ async function loadCalculator() {
         console.error('Error loading scripts or initializing calculator:', err);
     }
 }
-# flick 20250424133738-YRk4

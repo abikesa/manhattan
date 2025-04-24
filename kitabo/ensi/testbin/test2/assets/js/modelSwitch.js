@@ -25,4 +25,3 @@ window.onload = function () {
     loadModelData(currentModel_90day); // Load beta coefficients for Model 1
     updateVariableInputs(); // Update inputs for Model 1
 };
-# flick 20250424133058-ZSYm
